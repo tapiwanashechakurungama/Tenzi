@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+}
+body{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dice-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 20px;
+}
+
+.die {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #333;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.die.held {
+  background-color: rgb(158, 72, 72);
+}
+
+.roll-button {
+  padding: 10px 60px;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+  background: rgb(22, 124, 158);
+  border-radius: 5px;
+}
+h1{
+  color: blue;
+  font-size: 3rem;
+}
